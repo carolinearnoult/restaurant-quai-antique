@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.links-blog {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #E68A0A;
+    text-decoration: none;
+}
+.links:hover {
+    color: #252725;
+    }
+
+.links-gallery {
+    color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+/* header */
+#header {
+    background-image: url("../images/header-img.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+#header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 34, 46, 0.6);
+    z-index: -1;
+}
+#header h1 {
+ font-weight: 700;
+ font-size: 100px;
+ letter-spacing: 1px;
+}
+#hero h6 {
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.navbar-brand-title {
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.title {
+    font-family: 'Cormorant Unicase', serif;
+}
+.logo-title {
+    color: #E68A0A;
+}
+.subtitle {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.overlay {
+    position: relative;
+    z-index: 2;
+}
+.overlay::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(36, 44, 48, 0.6);
+    z-index: -1;
+}
+img {
+    width: 100%;
+}
+
+/* Button */
+.btn-login {
+    padding: 12px 32px;
+    border-radius: 100px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    background: #E68A0A;
+    border: 2px solid #E68A0A;
+}
+.btn-login:hover {
+    background: transparent;
+    border: 2px solid #E68A0A;
+    color: #E68A0A;
+}
+.btn-register {
+    padding: 12px 32px;
+    border-radius: 100px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    background: #121212;
+    border: 2px solid #121212;
+}
+.btn-register:hover  {
+    background: transparent;
+    border: 2px solid #121212;
+    color: #121212;
+}
+.btn-formules {
+    padding: 10px 25px;
+    border-radius: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    background: #121212;
+    border: 1px solid #121212;
+}
+.btn-formules-light {
+    padding: 10px 25px;
+    border-radius: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #121212;
+    background: white;
+    border: 1px solid white;
+}
+.btn-formules:hover {
+    background: transparent;
+    border: 1px solid #121212;
+    color: #121212;
+}
+.btn-formules-light:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+/* Navbar */
+.navbar {
+    transition: all 0.4s ease;
+}
+.navbar-dark .navbar-nav .navbar-link {
+    color: #ffffff;
+    
+}
+.navbar-dark .navbar-nav .navbar-link.active {
+    color: #E68A0A;
+}
+.intro {
+    margin-bottom: 10%;
+}
+.intro .divider {
+    background-color: #E68A0A;
+    height: 2px;
+    width: 120px;
+    margin: 24px auto;
+}
+/* Icons */
+.icon-box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F8F8F8;
+    border: solid #BDBDBD 0;
+    border-radius: 50px;
+    margin: 0 auto 14px auto;
+    flex: none;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+/* Numbers */
+#milestone {
+    background-image: url("../images/separator-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.counter .number {
+ line-height: 1;
+}
+.counter .divider {
+    width: 80px;
+    height: 2px;
+    background-color: #E68A0A;
+    margin: 18px auto;
+}
+.counter-text-title {
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.counter-text {
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+/* Galerie */
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-info {
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.project-info {
+    position: absolute;
+    padding: 25px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E68A0A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.3s ease;
+}
+.project:hover .project-info {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Services */
+.service-box {
+    display: flex;
+
+}
+
+/* MENUS */
+.formules-table {
+    background-color: #fff;
+    padding: 60px 30px;
+}
+
+.formules-table ul {
+    list-style: none;
+    padding: 0;
+}
+
+formulesg-table ul li {
+    margin-top: 16px;
+}
+.formules-table.primary {
+    background-color: #121212;
+    color: white;
+}
+/* Contact */
+.cta {
+    background-color: #121212;
+}
+/* footer */
+.footer-links {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
