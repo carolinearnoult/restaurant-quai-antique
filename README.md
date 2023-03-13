@@ -11,11 +11,11 @@ Pour cela, il vous suffit de vous connecter via le lien url suivant :
 
 http://www.lequaiantique.com
 
-
-Arrivez sur la page d'accueil du site web, vous devrez cliquer sur le bouton LOGIN, qui vous redirigera directement vers un nouvelle page de connexion. Il ne vous restera plus qu'à remplir ce formulaire de connexion avec l'identifiant et le mot de passe qui vous a été remis dans le dossier ECF.
-
-Vous pouvez également vous connecter à la page LOGIN directement en utilisant cet URL :
+Pour accèder au tableau de bord qui va vous permettre de gèrer la partie administrative du restaurant sur le site web, 
+Vous devez vous connecter à la page LOGIN directement en utilisant cet URL :
 http://www.lequaiantique.com/admin/login.php
+
+Il ne vous restera plus qu'à remplir le formulaire de connexion avec l'identifiant et le mot de passe qui vous a été remis dans le dossier ECF.
 
 
 # Descriptif du projet
