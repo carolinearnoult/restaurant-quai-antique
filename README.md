@@ -1,19 +1,26 @@
 # Présentation du Projet 
 
-GymFit est une société de franchises de salle de sport leader en France. Celle-ci  propose un site interner à ses franchisés et partenaires leurs permettant de gèrer sur un dashnoard leurs données.
+Le Quai Antique est un restaurant gastronomique dirigé par le Chef Arnaud Michant. Il souhaitait moderniser son site internet.
+
+Le projet consiste donc dans le développement web full-stack d'un site internet permettant aux clients d’effectuer des réservations et de s’informer sur le restaurant et au Chef de gérer son entreprise en ligne grâce à un espace administrateur. La conception du site à impliqué le choix de technologies adaptées que ce soit pour la partie back-end et la partie front-end.
+
 
 # Comment se connecter à l'espace de travail
 
-Pour cela, il vous suffit de vous connecter via le lien url qui vous à été remis, puis sur la page d'accueil de cliquer sur le bouton LOGIN, qui vous redirigera directement vers un nouvelle page de connexion. Il ne vous restera plus qu'à remplir ce formulaire de connexion avec  votre adresse mail et le mot de passe.
+Pour cela, il vous suffit de vous connecter via le lien url suivant :
 
-Pour ce projet test voici les données qui vous permetteront de vous connecter et de tester le site.
+http://www.lequaiantique.com
 
-adresse : studi@exemple.fr
-mot de passe: qsdf
+
+Arrivez sur la page d'accueil du site web, vous devrez cliquer sur le bouton LOGIN, qui vous redirigera directement vers un nouvelle page de connexion. Il ne vous restera plus qu'à remplir ce formulaire de connexion avec l'identifiant et le mot de passe qui vous a été remis dans le dossier ECF.
+
+Vous pouvez également vous connecter à la page LOGIN directement en utilisant cet URL :
+http://www.lequaiantique.com/admin/login.php
+
 
 # Descriptif du projet
 
-Une fois connecté l'utilisateur à la possibilité de gèrer le listing de ses partenaires et des franchies (ajouter, éditer, annuler) également de sélectionner les formules et avantages de son choix.
+Une fois connecté l'utilisateur à la possibilité de gèrer le listing de ses réservations clients, de ses employés et des commandes passées aux fournisseurs, il peut également gèrer la galerie photo du site.
 
 Pour vous deconnecter du site vous avez 2 possibilité :
  - dans le sidebar de gauche cliquer sur l'onglet connexion puis deconnexion
